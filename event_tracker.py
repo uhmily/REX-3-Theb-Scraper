@@ -104,6 +104,8 @@ class OreEvent:
     
     def get_event_types(self) -> list[EventType]:
         out = []
+        if item_manager.is_testing():
+            out.append(EventType.TEST)
         if self.blocks < 100000:
             print("Beginner: " + self.username)
             out.append(EventType.BEGINNER)

@@ -34,3 +34,7 @@ def get_username(oldname):
 def get_channel(channel):
     with open("info.json", "r") as f:
         return json.load(f)[channel]
+
+def is_testing():
+    with open("info.json", "r") as f:
+        return json.load(f)['TESTING']
