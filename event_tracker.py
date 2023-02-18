@@ -116,7 +116,8 @@ class OreEvent:
             out.append(EventType.DMZETEX)
         elif self.username in item_manager.get_theb_dict().keys():
             print("THEB: " + self.username)
-            self.username = f"{self.username} ({item_manager.get_username(self.username)})"
+            name = item_manager.get_username(self.username)
+            self.username = f"{self.username} {'(' + name + ')' if name is not None else ''}"
             out.append(EventType.THEB)
         return out
     
