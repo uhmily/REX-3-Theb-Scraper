@@ -17,11 +17,11 @@ class SpecialType(Enum):
 
 
 class EventType(Enum):
-    THEB = 1076318055220658227
-    GLOBAL = 1076318087994937474
-    BEGINNER = 1076318072924811395
-    DMZETEX = 190804082032640000
-    TEST = 1076318101769039972
+    THEB = item_manager.get_channel("THEB_CHANNEL")
+    GLOBAL = item_manager.get_channel("GLOBAL_CHANNEL")
+    BEGINNER = item_manager.get_channel("BEGINNER_CHANNEL")
+    DMZETEX = item_manager.get_channel("ZETEX_DM")
+    TEST = item_manager.get_channel("TEST_CHANNEL")
 
 
 @total_ordering

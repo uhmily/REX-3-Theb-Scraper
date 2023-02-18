@@ -30,3 +30,7 @@ def get_username(oldname):
         if oldname in data:
             return data[oldname]
         return oldname
+
+def get_channel(channel):
+    with open("info.json", "r") as f:
+        return json.load(f)[channel]
