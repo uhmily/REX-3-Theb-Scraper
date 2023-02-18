@@ -47,7 +47,6 @@ class OreEvent:
     def __init__(self, event):
         self.__embed = event['d']['embeds'][0]
         self.get_bases()
-        self.tracks = 0
     
     def get_bases(self):
         title_groups = re.search(r"^\*\*(.+)\*\* has found(?: an? )?((?:spectral|ionized)?)\*\* (.+)\*\*", self.__embed['title'])
@@ -144,8 +143,7 @@ class OreEvent:
                     tracker_name = "ZETEX PRIVATE"
                 case EventType.TEST:
                     tracker_name = "TEST"
-            self.tracks += 1
-            return f"--------------------------------------------------\n**[{tracker_name} TRACKER]**\n**{username}** has found **{ore}**\nTier: {tier}\nBase Rarity: {rarity}\nBlocks: {blocks}\nPickaxe: {pickaxe}\nEvent: {event}\n--------------------------------------------------\nTracks Without Incident: {self.tracks}"
+            return f"--------------------------------------------------\n**[{tracker_name} TRACKER]**\n**{username}** has found **{ore}**\nTier: {tier}\nBase Rarity: {rarity}\nBlocks: {blocks}\nPickaxe: {pickaxe}\nEvent: {event}\n--------------------------------------------------"
         except Exception as e:
             print(e)
         
@@ -155,6 +153,7 @@ class EventTracker(socket_based.SocketBased):
     def __init__(self, socket: websocket.WebSocket):
         super().__init__(socket)
         self.queue = queue.LifoQueue()
+        self.tracks = 0
     
     def start(self):
         token = item_manager.get_auth_token()

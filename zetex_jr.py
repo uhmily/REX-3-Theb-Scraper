@@ -30,6 +30,8 @@ class ZetexJr(discord.Bot):
         if self.et.queue.qsize() != 0:
             event = self.et.queue.get()
             for type in event.get_event_types():
-                await self.get_channel(type.value).send(event.format(type))
+                self.et.tracks += 1
+                await self.get_channel(type.value).send(event.format(type) + f"\nTracks Without Incident: {self.et.tracks}")
+                
 
 zetex_jr = ZetexJr()
