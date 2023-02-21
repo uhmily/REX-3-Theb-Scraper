@@ -20,7 +20,7 @@ class EventType(Enum):
     THEB = item_manager.get_channel("THEB_CHANNEL")
     GLOBAL = item_manager.get_channel("GLOBAL_CHANNEL")
     BEGINNER = item_manager.get_channel("BEGINNER_CHANNEL")
-    DMZETEX = item_manager.get_channel("ZETEX_DM")
+    ZETEXSERVER = item_manager.get_channel("ZETEXSERVER")
     TEST = item_manager.get_channel("TEST_CHANNEL")
 
 
@@ -111,14 +111,15 @@ class OreEvent:
             out.append(EventType.BEGINNER)
         if self.should_ping_everyone():
             out.append(EventType.GLOBAL)
-        if self.username == "winter_visage":
-            print("DM: " + self.username)
-            self.username = "winter_visage (<@797942648932794398> THEY FOUND SOMETHING)"
-            out.append(EventType.DMZETEX)
-        elif self.username in item_manager.get_theb_dict().keys():
-            print("THEB: " + self.username)
-            name = item_manager.get_username(self.username)
+        if self.username in item_manager.get_zetex_dict().keys():
+            print("ZETEXSERVER: " + self.username)
+            name = item_manager.get_username(self.username, 0)
             self.username = f"{self.username} {'(' + name + ')' if name is not None else ''}"
+            out.append(EventType.ZETEXSERVER)
+        if self.username in item_manager.get_theb_dict().keys():
+            print("THEB: " + self.username)
+            name = item_manager.get_username(self.username, 1)
+            self.username = f"{self.username}{' (' + name + ')' if name is not None else ''}"
             out.append(EventType.THEB)
         return out
     
@@ -131,6 +132,35 @@ class OreEvent:
             blocks = self.get_blocks()
             pickaxe = self.get_pickaxe()
             event = self.get_event()
+
+            adjustedFound = False
+            eventFound = False
+            with open('adjusted.txt', 'r') as adjustedRarities:
+                for num, line in enumerate(adjustedRarities):
+                    if ore in line and not (' ' + ore) in line and not adjustedFound:
+                        rarity += "\nAdjusted Rarity: 1 in " + line.split()[-1]
+                        adjustedFound = True
+            if event in ore or 'Protoflare' in ore:
+                with open('events.txt', 'r') as eventRarities:
+                    for num, line in enumerate(eventRarities):
+                        if ore in line and not (' ' + ore) in line and not eventFound:
+                            rarity += "\nEvent Rarity: 1 in " + line.split()[-1]
+                            eventFound = True
+            if 'Hyperheated Quasar' in ore:
+                if '57' in pickaxe:
+                    if 'Ionized' in ore:
+                        rarity += "\nAdjusted Rarity: 1 in 3,471,984,000"
+                    elif 'Spectral' in ore:
+                        rarity += "\nAdjusted Rarity: 1 in 52,079,760,000"
+                    else:
+                        rarity += "\nAdjusted Rarity: 1 in 86,799,600"
+                else:
+                    if 'Ionized' in ore:
+                        rarity += "\nAdjusted Rarity: 1 in 347,198,400,000"
+                    elif 'Spectral' in ore:
+                        rarity += "\nAdjusted Rarity: 1 in 5,207,976,000,000"
+                    else:
+                        rarity += "\nAdjusted Rarity: 1 in 8,679,960,000"
             
             tracker_name = ""
             match type:
@@ -138,14 +168,18 @@ class OreEvent:
                     tracker_name = "THEB"
                 case EventType.GLOBAL:
                     tracker_name = "GLOBAL"
-                    tier.replace("@everyone", "")
+                    if 'Spectral' in tier and 'Unfathomable' in tier:
+                        pass
+                    else:
+                        tier = tier.replace("@everyone", "")
                 case EventType.BEGINNER:
                     tracker_name = ":beginner:"
-                case EventType.DMZETEX:
-                    tracker_name = "ZETEX PRIVATE"
+                case EventType.ZETEXSERVER:
+                    tracker_name = "ZETEX REALM"
+                    tier = tier.replace("@everyone", "")
                 case EventType.TEST:
                     tracker_name = "TEST"
-            return f"--------------------------------------------------\n**[{tracker_name} TRACKER]**\n**{username}** has found **{ore}**\nTier: {tier}\nBase Rarity: {rarity}\nBlocks: {blocks}\nPickaxe: {pickaxe}\nEvent: {event}\n--------------------------------------------------"
+            return f"---------------------------------------------\n**[{tracker_name} TRACKER]**\n**{username}** has found **{ore}**\nTier: {tier}\nBase Rarity: {rarity}\nBlocks: {blocks}\nPickaxe: {pickaxe}\nEvent: {event}\n---------------------------------------------"
         except Exception as e:
             print(e)
         

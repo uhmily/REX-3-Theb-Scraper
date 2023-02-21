@@ -23,13 +23,24 @@ def get_color_names():
 def get_theb_dict():
     with open("theb_names.json", "r") as f:
         return json.load(f)
+
+def get_zetex_dict():
+    with open("zetex_names.json", "r") as f:
+        return json.load(f)
     
-def get_username(oldname):
-    with open("theb_names.json", "r") as f:
-        data = json.load(f)
-        if oldname in data:
-            return data[oldname]
-        return oldname
+def get_username(oldname, channelId):
+    if channelId == 0:
+        with open("zetex_names.json", "r") as f:
+            data = json.load(f)
+            if oldname in data:
+                return data[oldname]
+            return oldname
+    if channelId == 1:
+        with open("theb_names.json", "r") as f:
+            data = json.load(f)
+            if oldname in data:
+                return data[oldname]
+            return oldname
 
 def get_channel(channel):
     with open("info.json", "r") as f:

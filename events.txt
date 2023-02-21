@@ -1,0 +1,84 @@
+Spristium 8,600,000
+Ionized Spristium 344,000,000
+Spectral Spristium 5,160,000,000
+Lucidium 28,277,282
+Ionized Lucidium 1,131,091,280
+Spectral Lucidium 16,966,369,200
+Cleopatrite 14,500,000
+Ionized Cleopatrite 580,000,000
+Spectral Cleopatrite 8,700,000,000
+Vitrilyx 4,400,000
+Ionized Vitrilyx 220,000,000
+Spectral Vitrilyx 3,300,000,000
+Temporum 2,600,000
+Ionized Temporum 130,000,000
+Spectral Temporum 1,950,000,000
+Magnetyx 48,000,000
+Ionized Magnetyx 1,440,000,000
+Spectral Magnetyx 21,600,000,000
+Vaporwave Crystal 50,000,000
+Ionized Vaporwave Crystal 1,500,000,000
+Spectral Vaporwave Crystal 22,500,000,000
+Candilium 55,000,000
+Ionized Candilium 1,650,000,000
+Spectral Candilium 24,750,000,000
+Combustal 3,850,000
+Ionized Combustal 192,500,000
+Spectral Combustal 2,887,500,000
+Sentient Viscera 22,000,000
+Ionized Sentient Viscera 880,000,000
+Spectral Sentient Viscera 13,200,000,000
+Blazuine 3,800,000
+Ionized Blazuine 190,000,000
+Spectral Blazuine 2,850,000,000
+Idolium 100,000,000
+Ionized Idolium 2,000,000,000
+Spectral Idolium 30,000,000,000
+Inclemetite 225,000,000
+Ionized Inclemetite 4,500,000,000
+Spectral Inclemetite 67,500,000,000
+Euclideum 9,898,845
+Ionized Euclideum 494,942,250
+Spectral Euclideum 7,424,133,750
+Inkonium 46,700,000
+Ionized Inkonium 1,401,000,000
+Spectral Inkonium 21,015,000,000
+Quandrium 19,000,000
+Ionized Quandrium 760,000,000
+Spectral Quandrium 11,400,000,000
+Ω 50,000,000
+Ionized Ω 1,500,000,000
+Spectral Ω 22,500,000,000
+Illusory Bubblegram 342,000,040
+Ionized Illusory Bubblegram 6,840,000,800
+Spectral Illusory Bubblegram 102,600,012,000
+Pastelorium 26,580,000
+Ionized Pastelorium 1,063,200,000
+Spectral Pastelorium 15,948,000,000
+Legacy Freon 1,330,000
+Ionized Legacy Freon 66,500,000
+Spectral Legacy Freon 997,500,000
+Legacy Flaeon 1,330,000
+Ionized Legacy Flaeon 66,500,000
+Spectral Legacy Flaeon 997,500,000
+Legacy Poiseon 1,330,000
+Ionized Legacy Poiseon 66,500,000
+Spectral Legacy Poiseon 997,500,000
+Sagittarius Quasar 2,500,000
+Ionized Sagittarius Quasar 125,000,000
+Spectral Sagittarius Quasar 1,875,000,000
+Protoflare 2,000,000
+Ionized Protoflare 80,000,000
+Spectral Protoflare 1,200,000,000
+Legacy Astatine 2,000,000
+Ionized Legacy Astatine 100,000,000
+Spectral Legacy Astatine 1,500,000,000
+Vaporwave Pulsar 3,500,000
+Ionized Vaporwave Pulsar 140,000,000
+Spectral Vaporwave Pulsar 2,100,000,000
+RGB Pulsar 25,500,000
+Ionized RGB Pulsar 765,000,000
+Spectral RGB Pulsar 11,475,000,000
+Legacy Codex 213,337
+Ionized Legacy Codex 10,666,850
+Spectral Legacy Codex 160,002,750
