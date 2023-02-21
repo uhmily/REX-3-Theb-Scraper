@@ -1,6 +1,7 @@
 import discord
 from discord.ext import tasks
 import websocket
+import os
 
 import heartbeat
 import event_tracker
@@ -33,5 +34,8 @@ class ZetexJr(discord.Bot):
                 self.et.tracks += 1
                 await self.get_channel(type.value).send(event.format(type) + f"\nTracks Without Incident: {self.et.tracks}")
                 
+zetex_jr = ZetexJr(command_prefix="$")
 
-zetex_jr = ZetexJr()
+@zetex_jr.command()
+async def hefuckingdied(ctx):
+    os.system("/root/restart.sh")
