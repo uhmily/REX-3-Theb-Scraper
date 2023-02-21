@@ -9,6 +9,9 @@ import event_tracker
 
 class ZetexJr(discord.Bot):
     
+    def __init__(self):
+        super().__init__(command_prefix="$")
+    
     async def on_ready(self):
         print("Zetex Jr ready for action!")
         await self.get_channels()
@@ -34,9 +37,9 @@ class ZetexJr(discord.Bot):
                 self.et.tracks += 1
                 await self.get_channel(type.value).send(event.format(type) + f"\nTracks Without Incident: {self.et.tracks}")
                 
-zetex_jr = ZetexJr(command_prefix="$")
+zetex_jr = ZetexJr()
 
 @zetex_jr.command()
 async def hefuckingdied(ctx):
-    ctx.send("Restarting!")
+    await ctx.respond("Restarting!")
     os.system("/root/restart.sh")
