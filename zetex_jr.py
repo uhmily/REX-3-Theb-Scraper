@@ -38,4 +38,5 @@ zetex_jr = ZetexJr(command_prefix="$")
 
 @zetex_jr.command()
 async def hefuckingdied(ctx):
+    ctx.send("Restarting!")
     os.system("/root/restart.sh")
