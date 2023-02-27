@@ -22,6 +22,7 @@ class EventType(Enum):
     BEGINNER = item_manager.get_channel("BEGINNER_CHANNEL")
     ZETEXSERVER = item_manager.get_channel("ZETEXSERVER")
     TEST = item_manager.get_channel("TEST_CHANNEL")
+    SCOVILLE = item_manager.get_channel("SCOVILLE_CHANNEL")
 
 
 @total_ordering
@@ -121,6 +122,11 @@ class OreEvent:
             name = item_manager.get_username(self.username, 1)
             self.username = f"{self.username}{' (' + name + ')' if name is not None else ''}"
             out.append(EventType.THEB)
+        if self.username in item_manager.get_scoville_dict().keys():
+            print("SCOVILLE: " + self.username)
+            name = item_manager.get_username(self.username, 2)
+            self.username = f"{self.username}{' (' + name + ')' if name is not None else ''}"
+            out.append(EventType.SCOVILLE)
         return out
     
     def format(self, type: EventType):
@@ -179,6 +185,8 @@ class OreEvent:
                     tier = tier.replace("@everyone", "")
                 case EventType.TEST:
                     tracker_name = "TEST"
+                case EventType.SCOVILLE:
+                    tracker_name = "SCOVILLE"
             return f"---------------------------------------------\n**[{tracker_name} TRACKER]**\n**{username}** has found **{ore}**\nTier: {tier}\nBase Rarity: {rarity}\nBlocks: {blocks}\nPickaxe: {pickaxe}\nEvent: {event}\n---------------------------------------------"
         except Exception as e:
             print(e)
