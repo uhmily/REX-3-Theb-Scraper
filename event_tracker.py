@@ -22,11 +22,8 @@ class EventType(Enum):
     BEGINNER = item_manager.get_channel("BEGINNER_CHANNEL")
     ZETEXSERVER = item_manager.get_channel("ZETEXSERVER")
     TEST = item_manager.get_channel("TEST_CHANNEL")
-<<<<<<< HEAD
     SCOVILLE = item_manager.get_channel("SCOVILLE_CHANNEL")
-=======
     MOMSONGAMING = item_manager.get_channel("MOMSONGAMING")
->>>>>>> 3cddc3446a0d41e432ff9805e11dae45c3eca593
 
 
 @total_ordering
