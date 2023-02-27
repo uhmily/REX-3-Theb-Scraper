@@ -22,7 +22,11 @@ class EventType(Enum):
     BEGINNER = item_manager.get_channel("BEGINNER_CHANNEL")
     ZETEXSERVER = item_manager.get_channel("ZETEXSERVER")
     TEST = item_manager.get_channel("TEST_CHANNEL")
+<<<<<<< HEAD
     SCOVILLE = item_manager.get_channel("SCOVILLE_CHANNEL")
+=======
+    MOMSONGAMING = item_manager.get_channel("MOMSONGAMING")
+>>>>>>> 3cddc3446a0d41e432ff9805e11dae45c3eca593
 
 
 @total_ordering
@@ -55,7 +59,10 @@ class OreEvent:
         self.username = title_groups.group(1)
         ore = f"{title_groups.group(2)} {title_groups.group(3)}"
         ore = ore.strip()
-        self.ore = ore[0].upper() + ore[1:]
+        if 'ionized' in ore or 'spectral' in ore:
+            self.ore = ore[0].upper() + ore[1:]
+        else:
+            self.ore = ore
         
         self.rarity = None
         with open("color_names.json", "r") as f:
@@ -71,9 +78,9 @@ class OreEvent:
             case _:
                 self.special = SpecialType.NONE
         
-        self.base_rarity = int(self.__embed["fields"][0]["value"].replace('1/',''))
+        self.base_rarity = int(self.__embed["fields"][0]["value"].replace('1/','').replace(',',''))
         
-        self.blocks = int(self.__embed["fields"][1]["value"])
+        self.blocks = int(self.__embed["fields"][1]["value"].replace(',',''))
         
         self.pickaxe = self.__embed["fields"][2]["value"]
         
@@ -112,12 +119,16 @@ class OreEvent:
             out.append(EventType.BEGINNER)
         if self.should_ping_everyone():
             out.append(EventType.GLOBAL)
-        if self.username in item_manager.get_zetex_dict().keys():
+        if self.username in ' MomSonGaming ':
+            self.username = "MomSonGaming (<@&1078460377920180276>)"
+            print("MOMSONGAMING: " + self.username)
+            out.append(EventType.MOMSONGAMING)
+        elif self.username in item_manager.get_zetex_dict().keys():
             print("ZETEXSERVER: " + self.username)
             name = item_manager.get_username(self.username, 0)
             self.username = f"{self.username} {'(' + name + ')' if name is not None else ''}"
             out.append(EventType.ZETEXSERVER)
-        if self.username in item_manager.get_theb_dict().keys():
+        elif self.username in item_manager.get_theb_dict().keys():
             print("THEB: " + self.username)
             name = item_manager.get_username(self.username, 1)
             self.username = f"{self.username}{' (' + name + ')' if name is not None else ''}"
@@ -170,12 +181,14 @@ class OreEvent:
             
             tracker_name = ""
             match type:
+                case EventType.MOMSONGAMING:
+                    tracker_name = "MOMSONGAMING"
                 case EventType.THEB:
                     tracker_name = "THEB"
                 case EventType.GLOBAL:
                     tracker_name = "GLOBAL"
                     if 'Spectral' in tier and 'Unfathomable' in tier:
-                        pass
+                        print("OH SHIT")
                     else:
                         tier = tier.replace("@everyone", "")
                 case EventType.BEGINNER:
