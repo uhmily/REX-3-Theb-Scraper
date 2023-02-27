@@ -424,3 +424,142 @@ Already up to date.
 Killed
 Already up to date.
 Killed
+Zetex Jr ready for action!
+
+--------------------------------------------------
+
+REX3 SCRAPETRACKER
+by zetexfake and GDNewbie
+Beginner: troyshell2011
+
+heartbeat sent after 41.25s
+
+heartbeat sent after 41.25s
+
+heartbeat sent after 41.25s
+
+heartbeat sent after 41.25s
+Beginner: Its_KoolBro
+THEB: zetexfake
+
+heartbeat sent after 41.25s
+THEB: pacovepowered5
+
+heartbeat sent after 41.25s
+
+heartbeat sent after 41.25s
+
+heartbeat sent after 41.25s
+
+heartbeat sent after 41.25s
+
+heartbeat sent after 41.25s
+
+heartbeat sent after 41.25s
+
+heartbeat sent after 41.25s
+
+heartbeat sent after 41.25s
+
+heartbeat sent after 41.25s
+
+heartbeat sent after 41.25s
+
+heartbeat sent after 41.25s
+
+heartbeat sent after 41.25s
+Beginner: j3_xc
+
+heartbeat sent after 41.25s
+
+heartbeat sent after 41.25s
+
+heartbeat sent after 41.25s
+
+heartbeat sent after 41.25s
+
+heartbeat sent after 41.25s
+
+heartbeat sent after 41.25s
+THEB: ronnoc1236
+
+heartbeat sent after 41.25s
+THEB: Maxis_s
+
+heartbeat sent after 41.25s
+Beginner: j3_xc
+
+heartbeat sent after 41.25s
+
+heartbeat sent after 41.25s
+Exception ignored in: <module 'threading' from '/usr/lib/python3.10/threading.py'>
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1567, in _shutdown
+    lock.acquire()
+KeyboardInterrupt: 
+
+heartbeat sent after 41.25s
+
+heartbeat sent after 41.25s
+
+heartbeat sent after 41.25s
+
+heartbeat sent after 41.25s
+Traceback (most recent call last):
+  File "/root/rex-discord/REX-3-Theb-Scraper/main.py", line 1, in <module>
+    import zetex_jr
+  File "/root/rex-discord/REX-3-Theb-Scraper/zetex_jr.py", line 8, in <module>
+    import event_tracker
+  File "/root/rex-discord/REX-3-Theb-Scraper/event_tracker.py", line 29
+    >>>>>>> 3cddc3446a0d41e432ff9805e11dae45c3eca593
+            ^
+SyntaxError: invalid decimal literal
+Traceback (most recent call last):
+  File "/root/rex-discord/REX-3-Theb-Scraper/main.py", line 1, in <module>
+    import zetex_jr
+  File "/root/rex-discord/REX-3-Theb-Scraper/zetex_jr.py", line 8, in <module>
+    import event_tracker
+  File "/root/rex-discord/REX-3-Theb-Scraper/event_tracker.py", line 29
+    >>>>>>> 3cddc3446a0d41e432ff9805e11dae45c3eca593
+            ^
+SyntaxError: invalid decimal literal
+Traceback (most recent call last):
+  File "/root/rex-discord/REX-3-Theb-Scraper/main.py", line 1, in <module>
+    import zetex_jr
+  File "/root/rex-discord/REX-3-Theb-Scraper/zetex_jr.py", line 8, in <module>
+    import event_tracker
+  File "/root/rex-discord/REX-3-Theb-Scraper/event_tracker.py", line 19, in <module>
+    class EventType(Enum):
+  File "/root/rex-discord/REX-3-Theb-Scraper/event_tracker.py", line 20, in EventType
+    THEB = item_manager.get_channel("THEB_CHANNEL")
+  File "/root/rex-discord/REX-3-Theb-Scraper/item_manager.py", line 48, in get_channel
+    return json.load(f)[channel]
+  File "/usr/lib/python3.10/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/usr/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.10/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting property name enclosed in double quotes: line 9 column 1 (char 316)
+Traceback (most recent call last):
+  File "/root/rex-discord/REX-3-Theb-Scraper/main.py", line 1, in <module>
+    import zetex_jr
+  File "/root/rex-discord/REX-3-Theb-Scraper/zetex_jr.py", line 8, in <module>
+    import event_tracker
+  File "/root/rex-discord/REX-3-Theb-Scraper/event_tracker.py", line 19, in <module>
+    class EventType(Enum):
+  File "/root/rex-discord/REX-3-Theb-Scraper/event_tracker.py", line 20, in EventType
+    THEB = item_manager.get_channel("THEB_CHANNEL")
+  File "/root/rex-discord/REX-3-Theb-Scraper/item_manager.py", line 48, in get_channel
+    return json.load(f)[channel]
+  File "/usr/lib/python3.10/json/__init__.py", line 293, in load
+    return loads(fp.read(),
+  File "/usr/lib/python3.10/json/__init__.py", line 346, in loads
+    return _default_decoder.decode(s)
+  File "/usr/lib/python3.10/json/decoder.py", line 337, in decode
+    obj, end = self.raw_decode(s, idx=_w(s, 0).end())
+  File "/usr/lib/python3.10/json/decoder.py", line 353, in raw_decode
+    obj, end = self.scan_once(s, idx)
+json.decoder.JSONDecodeError: Expecting ',' delimiter: line 10 column 5 (char 364)
