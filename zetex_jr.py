@@ -2,6 +2,7 @@ import discord
 from discord.ext import tasks
 import websocket
 import os
+import json
 
 import heartbeat
 import event_tracker
@@ -16,6 +17,8 @@ class ZetexJr(discord.Bot):
         print("Zetex Jr ready for action!")
         await self.get_channels()
         await self.start_tracking()
+        channel = self.get_channel(1061709849391534082)
+        await channel.send("<:sober:1077353673052672120>")
     
     async def get_channels(self):
         self.test_channel = self.get_channel(1075585315483439166)

@@ -1,0 +1,426 @@
+/root/kill-script.sh: 1: kill: No such process
+
+Already up to date.
+Killed
+/root/start-script.sh: 2: pyython3: not found
+Zetex Jr ready for action!
+
+--------------------------------------------------
+
+REX3 SCRAPETRACKER
+by zetexfake and GDNewbie
+Exception ignored in: <module 'threading' from '/usr/lib/python3.10/threading.py'>
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1567, in _shutdown
+    lock.acquire()
+KeyboardInterrupt: 
+Zetex Jr ready for action!
+
+--------------------------------------------------
+
+REX3 SCRAPETRACKER
+by zetexfake and GDNewbie
+THEB: HecateZoe
+THEB: HecateZoe
+
+heartbeat sent after 41.25s
+Exception ignored in: <module 'threading' from '/usr/lib/python3.10/threading.py'>
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1567, in _shutdown
+    lock.acquire()
+KeyboardInterrupt: 
+Zetex Jr ready for action!
+
+--------------------------------------------------
+
+REX3 SCRAPETRACKER
+by zetexfake and GDNewbie
+Exception ignored in: <module 'threading' from '/usr/lib/python3.10/threading.py'>
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1567, in _shutdown
+    lock.acquire()
+KeyboardInterrupt: 
+Zetex Jr ready for action!
+
+--------------------------------------------------
+
+REX3 SCRAPETRACKER
+by zetexfake and GDNewbie
+Exception ignored in: <module 'threading' from '/usr/lib/python3.10/threading.py'>
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1567, in _shutdown
+    lock.acquire()
+KeyboardInterrupt: 
+/root/kill-script.sh: 1: kill: No such process
+
+Already up to date.
+/root/kill-script.sh: 1: kill: No such process
+
+Killed
+Already up to date.
+Exception in thread Thread-3 (loop):
+Traceback (most recent call last):
+  File "/root/rex-discord/REX-3-Theb-Scraper/event_tracker.py", line 215, in loop
+    event = self.receive_json_response()
+  File "/root/rex-discord/REX-3-Theb-Scraper/socket_based.py", line 14, in receive_json_response
+    response = self.socket.recv()
+  File "/usr/local/lib/python3.10/dist-packages/websocket/_core.py", line 362, in recv
+    opcode, data = self.recv_data()
+  File "/usr/local/lib/python3.10/dist-packages/websocket/_core.py", line 385, in recv_data
+    opcode, frame = self.recv_data_frame(control_frame)
+  File "/usr/local/lib/python3.10/dist-packages/websocket/_core.py", line 406, in recv_data_frame
+    frame = self.recv_frame()
+  File "/usr/local/lib/python3.10/dist-packages/websocket/_core.py", line 445, in recv_frame
+    return self.frame_buffer.recv_frame()
+  File "/usr/local/lib/python3.10/dist-packages/websocket/_abnf.py", line 338, in recv_frame
+    self.recv_header()
+  File "/usr/local/lib/python3.10/dist-packages/websocket/_abnf.py", line 294, in recv_header
+    header = self.recv_strict(2)
+  File "/usr/local/lib/python3.10/dist-packages/websocket/_abnf.py", line 373, in recv_strict
+    bytes_ = self.recv(min(16384, shortage))
+  File "/usr/local/lib/python3.10/dist-packages/websocket/_core.py", line 529, in _recv
+    return recv(self.sock, bufsize)
+  File "/usr/local/lib/python3.10/dist-packages/websocket/_socket.py", line 122, in recv
+    raise WebSocketConnectionClosedException(
+websocket._exceptions.WebSocketConnectionClosedException: Connection to remote host was lost.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/root/rex-discord/REX-3-Theb-Scraper/event_tracker.py", line 219, in loop
+    os.execl(sys.executable, 'python', "main.py")
+  File "/usr/lib/python3.10/os.py", line 542, in execl
+    execv(file, args)
+FileNotFoundError: [Errno 2] No such file or directory
+Exception in thread Thread-2 (loop):
+Traceback (most recent call last):
+  File "/root/rex-discord/REX-3-Theb-Scraper/heartbeat.py", line 31, in loop
+    self.send_json_request(heartbeatJSON)
+  File "/root/rex-discord/REX-3-Theb-Scraper/socket_based.py", line 11, in send_json_request
+    self.socket.send(json.dumps(request))
+  File "/usr/local/lib/python3.10/dist-packages/websocket/_core.py", line 283, in send
+    return self.send_frame(frame)
+  File "/usr/local/lib/python3.10/dist-packages/websocket/_core.py", line 311, in send_frame
+    l = self._send(data)
+  File "/usr/local/lib/python3.10/dist-packages/websocket/_core.py", line 525, in _send
+    return send(self.sock, data)
+  File "/usr/local/lib/python3.10/dist-packages/websocket/_socket.py", line 143, in send
+    raise WebSocketConnectionClosedException("socket is already closed.")
+websocket._exceptions.WebSocketConnectionClosedException: socket is already closed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/root/rex-discord/REX-3-Theb-Scraper/heartbeat.py", line 36, in loop
+    os.execl(sys.executable, 'python', "main.py")
+  File "/usr/lib/python3.10/os.py", line 542, in execl
+    execv(file, args)
+FileNotFoundError: [Errno 2] No such file or directory
+/root/kill-script.sh: 1: kill: No such process
+
+Killed
+Already up to date.
+Exception in thread Thread-3 (loop):
+Traceback (most recent call last):
+  File "/root/rex-discord/REX-3-Theb-Scraper/event_tracker.py", line 215, in loop
+    event = self.receive_json_response()
+  File "/root/rex-discord/REX-3-Theb-Scraper/socket_based.py", line 14, in receive_json_response
+    response = self.socket.recv()
+  File "/usr/local/lib/python3.10/dist-packages/websocket/_core.py", line 362, in recv
+    opcode, data = self.recv_data()
+  File "/usr/local/lib/python3.10/dist-packages/websocket/_core.py", line 385, in recv_data
+    opcode, frame = self.recv_data_frame(control_frame)
+  File "/usr/local/lib/python3.10/dist-packages/websocket/_core.py", line 406, in recv_data_frame
+    frame = self.recv_frame()
+  File "/usr/local/lib/python3.10/dist-packages/websocket/_core.py", line 445, in recv_frame
+    return self.frame_buffer.recv_frame()
+  File "/usr/local/lib/python3.10/dist-packages/websocket/_abnf.py", line 338, in recv_frame
+    self.recv_header()
+  File "/usr/local/lib/python3.10/dist-packages/websocket/_abnf.py", line 294, in recv_header
+    header = self.recv_strict(2)
+  File "/usr/local/lib/python3.10/dist-packages/websocket/_abnf.py", line 373, in recv_strict
+    bytes_ = self.recv(min(16384, shortage))
+  File "/usr/local/lib/python3.10/dist-packages/websocket/_core.py", line 529, in _recv
+    return recv(self.sock, bufsize)
+  File "/usr/local/lib/python3.10/dist-packages/websocket/_socket.py", line 122, in recv
+    raise WebSocketConnectionClosedException(
+websocket._exceptions.WebSocketConnectionClosedException: Connection to remote host was lost.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/root/rex-discord/REX-3-Theb-Scraper/event_tracker.py", line 219, in loop
+    os.execl(sys.executable, 'python', "main.py")
+  File "/usr/lib/python3.10/os.py", line 542, in execl
+    execv(file, args)
+FileNotFoundError: [Errno 2] No such file or directory
+Exception in thread Thread-2 (loop):
+Traceback (most recent call last):
+  File "/root/rex-discord/REX-3-Theb-Scraper/heartbeat.py", line 31, in loop
+    self.send_json_request(heartbeatJSON)
+  File "/root/rex-discord/REX-3-Theb-Scraper/socket_based.py", line 11, in send_json_request
+    self.socket.send(json.dumps(request))
+  File "/usr/local/lib/python3.10/dist-packages/websocket/_core.py", line 283, in send
+    return self.send_frame(frame)
+  File "/usr/local/lib/python3.10/dist-packages/websocket/_core.py", line 311, in send_frame
+    l = self._send(data)
+  File "/usr/local/lib/python3.10/dist-packages/websocket/_core.py", line 525, in _send
+    return send(self.sock, data)
+  File "/usr/local/lib/python3.10/dist-packages/websocket/_socket.py", line 143, in send
+    raise WebSocketConnectionClosedException("socket is already closed.")
+websocket._exceptions.WebSocketConnectionClosedException: socket is already closed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/root/rex-discord/REX-3-Theb-Scraper/heartbeat.py", line 36, in loop
+    os.execl(sys.executable, 'python', "main.py")
+  File "/usr/lib/python3.10/os.py", line 542, in execl
+    execv(file, args)
+FileNotFoundError: [Errno 2] No such file or directory
+/root/kill-script.sh: 1: kill: No such process
+
+Killed
+Already up to date.
+/root/kill-script.sh: 1: kill: No such process
+
+Killed
+Already up to date.
+Traceback (most recent call last):
+  File "/root/rex-discord/REX-3-Theb-Scraper/main.py", line 1, in <module>
+    import zetex_jr
+  File "/root/rex-discord/REX-3-Theb-Scraper/zetex_jr.py", line 16
+    await channel.send(<:sober:1077353673052672120>)
+                       ^
+SyntaxError: invalid syntax
+Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/discord/client.py", line 378, in _run_event
+    await coro(*args, **kwargs)
+  File "/root/rex-discord/REX-3-Theb-Scraper/zetex_jr.py", line 15, in on_ready
+    channel = zetex_jr.getchannel(1061709849391534082)
+AttributeError: 'ZetexJr' object has no attribute 'getchannel'
+Ignoring exception in on_ready
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/discord/client.py", line 378, in _run_event
+    await coro(*args, **kwargs)
+  File "/root/rex-discord/REX-3-Theb-Scraper/zetex_jr.py", line 15, in on_ready
+    channel = self.getchannel(1061709849391534082)
+AttributeError: 'ZetexJr' object has no attribute 'getchannel'
+Zetex Jr ready for action!
+
+--------------------------------------------------
+
+REX3 SCRAPETRACKER
+by zetexfake and GDNewbie
+Exception ignored in: <module 'threading' from '/usr/lib/python3.10/threading.py'>
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1567, in _shutdown
+    lock.acquire()
+KeyboardInterrupt: 
+Zetex Jr ready for action!
+
+--------------------------------------------------
+
+REX3 SCRAPETRACKER
+by zetexfake and GDNewbie
+Beginner: SaveMySoulMP4
+
+heartbeat sent after 41.25s
+
+heartbeat sent after 41.25s
+Exception ignored in: <module 'threading' from '/usr/lib/python3.10/threading.py'>
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1567, in _shutdown
+    lock.acquire()
+KeyboardInterrupt: 
+/root/kill-script.sh: 1: kill: No such process
+
+Already up to date.
+/root/kill-script.sh: 1: kill: No such process
+
+Killed
+Already up to date.
+/root/kill-script.sh: 1: kill: No such process
+
+Killed
+Already up to date.
+Exception in thread Thread-3 (loop):
+Traceback (most recent call last):
+  File "/root/rex-discord/REX-3-Theb-Scraper/event_tracker.py", line 215, in loop
+    event = self.receive_json_response()
+  File "/root/rex-discord/REX-3-Theb-Scraper/socket_based.py", line 14, in receive_json_response
+    response = self.socket.recv()
+  File "/usr/local/lib/python3.10/dist-packages/websocket/_core.py", line 362, in recv
+    opcode, data = self.recv_data()
+  File "/usr/local/lib/python3.10/dist-packages/websocket/_core.py", line 385, in recv_data
+    opcode, frame = self.recv_data_frame(control_frame)
+  File "/usr/local/lib/python3.10/dist-packages/websocket/_core.py", line 406, in recv_data_frame
+    frame = self.recv_frame()
+  File "/usr/local/lib/python3.10/dist-packages/websocket/_core.py", line 445, in recv_frame
+    return self.frame_buffer.recv_frame()
+  File "/usr/local/lib/python3.10/dist-packages/websocket/_abnf.py", line 338, in recv_frame
+    self.recv_header()
+  File "/usr/local/lib/python3.10/dist-packages/websocket/_abnf.py", line 294, in recv_header
+    header = self.recv_strict(2)
+  File "/usr/local/lib/python3.10/dist-packages/websocket/_abnf.py", line 373, in recv_strict
+    bytes_ = self.recv(min(16384, shortage))
+  File "/usr/local/lib/python3.10/dist-packages/websocket/_core.py", line 529, in _recv
+    return recv(self.sock, bufsize)
+  File "/usr/local/lib/python3.10/dist-packages/websocket/_socket.py", line 122, in recv
+    raise WebSocketConnectionClosedException(
+websocket._exceptions.WebSocketConnectionClosedException: Connection to remote host was lost.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/root/rex-discord/REX-3-Theb-Scraper/event_tracker.py", line 219, in loop
+    os.execl(sys.executable, 'python', "main.py")
+  File "/usr/lib/python3.10/os.py", line 542, in execl
+    execv(file, args)
+FileNotFoundError: [Errno 2] No such file or directory
+Exception in thread Thread-2 (loop):
+Traceback (most recent call last):
+  File "/root/rex-discord/REX-3-Theb-Scraper/heartbeat.py", line 31, in loop
+    self.send_json_request(heartbeatJSON)
+  File "/root/rex-discord/REX-3-Theb-Scraper/socket_based.py", line 11, in send_json_request
+    self.socket.send(json.dumps(request))
+  File "/usr/local/lib/python3.10/dist-packages/websocket/_core.py", line 283, in send
+    return self.send_frame(frame)
+  File "/usr/local/lib/python3.10/dist-packages/websocket/_core.py", line 311, in send_frame
+    l = self._send(data)
+  File "/usr/local/lib/python3.10/dist-packages/websocket/_core.py", line 525, in _send
+    return send(self.sock, data)
+  File "/usr/local/lib/python3.10/dist-packages/websocket/_socket.py", line 143, in send
+    raise WebSocketConnectionClosedException("socket is already closed.")
+websocket._exceptions.WebSocketConnectionClosedException: socket is already closed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/root/rex-discord/REX-3-Theb-Scraper/heartbeat.py", line 36, in loop
+    os.execl(sys.executable, 'python', "main.py")
+  File "/usr/lib/python3.10/os.py", line 542, in execl
+    execv(file, args)
+FileNotFoundError: [Errno 2] No such file or directory
+/root/kill-script.sh: 1: kill: No such process
+
+Killed
+Already up to date.
+Exception in thread Thread-3 (loop):
+Traceback (most recent call last):
+  File "/root/rex-discord/REX-3-Theb-Scraper/event_tracker.py", line 215, in loop
+    event = self.receive_json_response()
+  File "/root/rex-discord/REX-3-Theb-Scraper/socket_based.py", line 14, in receive_json_response
+    response = self.socket.recv()
+  File "/usr/local/lib/python3.10/dist-packages/websocket/_core.py", line 362, in recv
+    opcode, data = self.recv_data()
+  File "/usr/local/lib/python3.10/dist-packages/websocket/_core.py", line 385, in recv_data
+    opcode, frame = self.recv_data_frame(control_frame)
+  File "/usr/local/lib/python3.10/dist-packages/websocket/_core.py", line 406, in recv_data_frame
+    frame = self.recv_frame()
+  File "/usr/local/lib/python3.10/dist-packages/websocket/_core.py", line 445, in recv_frame
+    return self.frame_buffer.recv_frame()
+  File "/usr/local/lib/python3.10/dist-packages/websocket/_abnf.py", line 338, in recv_frame
+    self.recv_header()
+  File "/usr/local/lib/python3.10/dist-packages/websocket/_abnf.py", line 294, in recv_header
+    header = self.recv_strict(2)
+  File "/usr/local/lib/python3.10/dist-packages/websocket/_abnf.py", line 373, in recv_strict
+    bytes_ = self.recv(min(16384, shortage))
+  File "/usr/local/lib/python3.10/dist-packages/websocket/_core.py", line 529, in _recv
+    return recv(self.sock, bufsize)
+  File "/usr/local/lib/python3.10/dist-packages/websocket/_socket.py", line 122, in recv
+    raise WebSocketConnectionClosedException(
+websocket._exceptions.WebSocketConnectionClosedException: Connection to remote host was lost.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/root/rex-discord/REX-3-Theb-Scraper/event_tracker.py", line 219, in loop
+    os.execl(sys.executable, 'python', "main.py")
+  File "/usr/lib/python3.10/os.py", line 542, in execl
+    execv(file, args)
+FileNotFoundError: [Errno 2] No such file or directory
+Exception in thread Thread-2 (loop):
+Traceback (most recent call last):
+  File "/root/rex-discord/REX-3-Theb-Scraper/heartbeat.py", line 31, in loop
+    self.send_json_request(heartbeatJSON)
+  File "/root/rex-discord/REX-3-Theb-Scraper/socket_based.py", line 11, in send_json_request
+    self.socket.send(json.dumps(request))
+  File "/usr/local/lib/python3.10/dist-packages/websocket/_core.py", line 283, in send
+    return self.send_frame(frame)
+  File "/usr/local/lib/python3.10/dist-packages/websocket/_core.py", line 311, in send_frame
+    l = self._send(data)
+  File "/usr/local/lib/python3.10/dist-packages/websocket/_core.py", line 525, in _send
+    return send(self.sock, data)
+  File "/usr/local/lib/python3.10/dist-packages/websocket/_socket.py", line 143, in send
+    raise WebSocketConnectionClosedException("socket is already closed.")
+websocket._exceptions.WebSocketConnectionClosedException: socket is already closed.
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1016, in _bootstrap_inner
+    self.run()
+  File "/usr/lib/python3.10/threading.py", line 953, in run
+    self._target(*self._args, **self._kwargs)
+  File "/root/rex-discord/REX-3-Theb-Scraper/heartbeat.py", line 36, in loop
+    os.execl(sys.executable, 'python', "main.py")
+  File "/usr/lib/python3.10/os.py", line 542, in execl
+    execv(file, args)
+FileNotFoundError: [Errno 2] No such file or directory
+/root/kill-script.sh: 1: kill: No such process
+
+Killed
+Already up to date.
+Killed
+Zetex Jr ready for action!
+
+--------------------------------------------------
+
+REX3 SCRAPETRACKER
+by zetexfake and GDNewbie
+/root/kill-script.sh: 1: kill: No such process
+
+Already up to date.
+/root/kill-script.sh: 1: kill: No such process
+
+Killed
+Already up to date.
+/root/kill-script.sh: 1: kill: No such process
+
+Killed
+Already up to date.
+/root/kill-script.sh: 1: kill: No such process
+
+Killed
+Already up to date.
+Killed
