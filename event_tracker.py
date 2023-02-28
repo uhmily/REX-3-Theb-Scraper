@@ -120,12 +120,14 @@ class OreEvent:
         if item_manager.is_testing():
             out.append(EventType.TEST)
         if self.blocks < 100000:
+            self.print_username[EventType.BEGINNER] = self.username
             print("Beginner: " + self.username)
             out.append(EventType.BEGINNER)
         if self.should_ping_everyone():
+            self.print_username[EventType.GLOBAL] = self.username
             out.append(EventType.GLOBAL)
         if self.username in ' MomSonGaming ':
-            self.username = "MomSonGaming (<@&1078460377920180276>)"
+            self.print_username[EventType.MOMSONGAMING] = "MomSonGaming (<@&1078460377920180276>)"
             print("MOMSONGAMING: " + self.username)
             out.append(EventType.MOMSONGAMING)
         if self.username in item_manager.get_zetex_dict().keys():
