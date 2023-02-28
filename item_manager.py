@@ -24,28 +24,33 @@ def get_theb_dict():
     with open("theb_names.json", "r") as f:
         return json.load(f)
 
+
 def get_scoville_dict():
     with open("scoville_names.json", "r") as f:
         return json.load(f)
 
+
 def get_zetex_dict():
     with open("zetex_names.json", "r") as f:
         return json.load(f)
-    
-def get_username(oldname, channelId):
-    if channelId == 0:
+
+
+def get_username(old_name, channel_id):
+    if channel_id == 0:
         data = get_zetex_dict()
-    elif channelId == 1:
+    elif channel_id == 1:
         data = get_theb_dict()
     else:
         data = get_scoville_dict()
-    if oldname in data:
-        return data[oldname]
-    return oldname
+    if old_name in data:
+        return data[old_name]
+    return old_name
+
 
 def get_channel(channel):
     with open("info.json", "r") as f:
         return json.load(f)[channel]
+
 
 def is_testing():
     with open("info.json", "r") as f:

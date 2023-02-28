@@ -20,7 +20,7 @@ class EventType(Enum):
     THEB = item_manager.get_channel("THEB_CHANNEL")
     GLOBAL = item_manager.get_channel("GLOBAL_CHANNEL")
     BEGINNER = item_manager.get_channel("BEGINNER_CHANNEL")
-    ZETEXSERVER = item_manager.get_channel("ZETEXSERVER")
+    ZETEX_SERVER = item_manager.get_channel("ZETEXSERVER")
     TEST = item_manager.get_channel("TEST_CHANNEL")
     SCOVILLE = item_manager.get_channel("SCOVILLE_CHANNEL")
     MOMSONGAMING = item_manager.get_channel("MOMSONGAMING")
@@ -47,6 +47,15 @@ class Rarity(Enum):
 class OreEvent:
     
     def __init__(self, event):
+        self.print_username = None
+        self.event = None
+        self.pickaxe = None
+        self.blocks = None
+        self.special = None
+        self.rarity = None
+        self.ore = None
+        self.base_rarity = None
+        self.username = None
         self.__embed = event['d']['embeds'][0]
         self.get_bases()
     
@@ -62,10 +71,9 @@ class OreEvent:
             self.ore = ore
         
         self.rarity = None
-        with open("color_names.json", "r") as f:
-            color_names = item_manager.get_color_names()
-            rarity_name = color_names[str(self.__embed['color'])]
-            self.rarity = Rarity[rarity_name.upper()]
+        color_names = item_manager.get_color_names()
+        rarity_name = color_names[str(self.__embed['color'])]
+        self.rarity = Rarity[rarity_name.upper()]
             
         match (title_groups.group(2)):
             case "ionized":
@@ -75,9 +83,9 @@ class OreEvent:
             case _:
                 self.special = SpecialType.NONE
         
-        self.base_rarity = int(self.__embed["fields"][0]["value"].replace('1/','').replace(',',''))
+        self.base_rarity = int(self.__embed["fields"][0]["value"].replace('1/', '').replace(',', ''))
         
-        self.blocks = int(self.__embed["fields"][1]["value"].replace(',',''))
+        self.blocks = int(self.__embed["fields"][1]["value"].replace(',', ''))
         
         self.pickaxe = self.__embed["fields"][2]["value"]
         
@@ -120,26 +128,27 @@ class OreEvent:
             self.username = "MomSonGaming (<@&1078460377920180276>)"
             print("MOMSONGAMING: " + self.username)
             out.append(EventType.MOMSONGAMING)
-        elif self.username in item_manager.get_zetex_dict().keys():
+        if self.username in item_manager.get_zetex_dict().keys():
             print("ZETEXSERVER: " + self.username)
             name = item_manager.get_username(self.username, 0)
-            self.username = f"{self.username} {'(' + name + ')' if name is not None else ''}"
-            out.append(EventType.ZETEXSERVER)
-        elif self.username in item_manager.get_theb_dict().keys():
+            self.print_username = f"{self.username} {'(' + name + ')' if name is not None else ''}"
+            out.append(EventType.ZETEX_SERVER)
+        if self.username in item_manager.get_theb_dict().keys():
             print("THEB: " + self.username)
             name = item_manager.get_username(self.username, 1)
-            self.username = f"{self.username}{' (' + name + ')' if name is not None else ''}"
+            self.print_username = f"{self.username}{' (' + name + ')' if name is not None else ''}"
             out.append(EventType.THEB)
+        print(f"{self.username} in {item_manager.get_scoville_dict().keys()} = {self.username in item_manager.get_scoville_dict().keys()}")
         if self.username in item_manager.get_scoville_dict().keys():
             print("SCOVILLE: " + self.username)
             name = item_manager.get_username(self.username, 2)
-            self.username = f"{self.username}{' (' + name + ')' if name is not None else ''}"
+            self.print_username = f"{self.username}{' (' + name + ')' if name is not None else ''}"
             out.append(EventType.SCOVILLE)
         return out
     
-    def format(self, type: EventType):
+    def format(self, event_type: EventType):
         try:
-            username = self.get_username()
+            username = self.print_username
             ore = self.get_ore()
             tier = self.get_tier()
             rarity = self.get_base_rarity()
@@ -147,19 +156,19 @@ class OreEvent:
             pickaxe = self.get_pickaxe()
             event = self.get_event()
 
-            adjustedFound = False
-            eventFound = False
+            adjusted_found = False
+            event_found = False
             with open('adjusted.txt', 'r') as adjustedRarities:
                 for num, line in enumerate(adjustedRarities):
-                    if ore in line and not (' ' + ore) in line and not adjustedFound:
+                    if ore in line and not (' ' + ore) in line and not adjusted_found:
                         rarity += "\nAdjusted Rarity: 1 in " + line.split()[-1]
-                        adjustedFound = True
+                        adjusted_found = True
             if event in ore or 'Protoflare' in ore:
                 with open('events.txt', 'r') as eventRarities:
                     for num, line in enumerate(eventRarities):
-                        if ore in line and not (' ' + ore) in line and not eventFound:
+                        if ore in line and not (' ' + ore) in line and not event_found:
                             rarity += "\nEvent Rarity: 1 in " + line.split()[-1]
-                            eventFound = True
+                            event_found = True
             if 'Hyperheated Quasar' in ore:
                 if '57' in pickaxe:
                     if 'Ionized' in ore:
@@ -177,7 +186,7 @@ class OreEvent:
                         rarity += "\nAdjusted Rarity: 1 in 8,679,960,000"
             
             tracker_name = ""
-            match type:
+            match event_type:
                 case EventType.MOMSONGAMING:
                     tracker_name = "MOMSONGAMING"
                 case EventType.THEB:
@@ -190,7 +199,7 @@ class OreEvent:
                         tier = tier.replace("@everyone", "")
                 case EventType.BEGINNER:
                     tracker_name = ":beginner:"
-                case EventType.ZETEXSERVER:
+                case EventType.ZETEX_SERVER:
                     tracker_name = "ZETEX REALM"
                     tier = tier.replace("@everyone", "")
                 case EventType.TEST:
@@ -199,13 +208,14 @@ class OreEvent:
                     tracker_name = "SCOVILLE"
             return f"---------------------------------------------\n**[{tracker_name} TRACKER]**\n**{username}** has found **{ore}**\nTier: {tier}\nBase Rarity: {rarity}\nBlocks: {blocks}\nPickaxe: {pickaxe}\nEvent: {event}\n---------------------------------------------"
         except Exception as e:
-            print(e)
+            print(f"format error: {e}")
         
         
 class EventTracker(socket_based.SocketBased):
     
     def __init__(self, socket: websocket.WebSocket):
         super().__init__(socket)
+        self.main_thread = None
         self.queue = queue.LifoQueue()
         self.tracks = 0
     
@@ -233,15 +243,17 @@ class EventTracker(socket_based.SocketBased):
                 event = self.receive_json_response()
             except Exception as err:
                 # SHITTY FIX ALERT
-                print(err)
+                print(f"et loop error 1: {err}")
                 os.execl(sys.executable, 'python', "main.py")
+                return
             try:
-                if int(event['d']['author']['id']) in item_manager.get_tracker_bots():
+                if 'd' in event.keys() and 'author' in event['d'].keys() and int(event['d']['author']['id']) in item_manager.get_tracker_bots():
                     self.handle_event(event)
-                op_code = event('op')
+                op_code = event['op']
                 if op_code == 11:
                     print('heartbeat received')
-            except:
+            except Exception as e:
+                print(f"et loop error 2: {e}")
                 pass
 
     def handle_event(self, event_data):
