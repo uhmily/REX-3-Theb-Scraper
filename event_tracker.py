@@ -47,7 +47,7 @@ class Rarity(Enum):
 class OreEvent:
     
     def __init__(self, event):
-        self.print_username = None
+        self.print_username = {}
         self.event = None
         self.pickaxe = None
         self.blocks = None
@@ -131,23 +131,23 @@ class OreEvent:
         if self.username in item_manager.get_zetex_dict().keys():
             print("ZETEXSERVER: " + self.username)
             name = item_manager.get_username(self.username, 0)
-            self.print_username = f"{self.username} {'(' + name + ')' if name is not None else ''}"
+            self.print_username[EventType.ZETEX_SERVER] = f"{self.username} {'(' + name + ')' if name is not None else ''}"
             out.append(EventType.ZETEX_SERVER)
         if self.username in item_manager.get_theb_dict().keys():
             print("THEB: " + self.username)
             name = item_manager.get_username(self.username, 1)
-            self.print_username = f"{self.username}{' (' + name + ')' if name is not None else ''}"
+            self.print_username[EventType.THEB] = f"{self.username}{' (' + name + ')' if name is not None else ''}"
             out.append(EventType.THEB)
         if self.username in item_manager.get_scoville_dict().keys():
             print("SCOVILLE: " + self.username)
             name = item_manager.get_username(self.username, 2)
-            self.print_username = f"{self.username}{' (' + name + ')' if name is not None else ''}"
+            self.print_username[EventType.SCOVILLE] = f"{self.username}{' (' + name + ')' if name is not None else ''}"
             out.append(EventType.SCOVILLE)
         return out
     
     def format(self, event_type: EventType):
         try:
-            username = self.print_username
+            username = self.print_username[event_type]
             ore = self.get_ore()
             tier = self.get_tier()
             rarity = self.get_base_rarity()
