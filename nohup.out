@@ -563,3 +563,938 @@ Traceback (most recent call last):
   File "/usr/lib/python3.10/json/decoder.py", line 353, in raw_decode
     obj, end = self.scan_once(s, idx)
 json.decoder.JSONDecodeError: Expecting ',' delimiter: line 10 column 5 (char 364)
+/root/kill-script.sh: 1: kill: No such process
+
+Already up to date.
+Killed
+Zetex Jr ready for action!
+
+--------------------------------------------------
+
+REX3 SCRAPE TRACKER
+by zetexfake and GDNewbie
+VeryMuch_MC in dict_keys(['GDNewbie', 'BovaScotia', 'GreatGD5', 'HappinessMajority', 'Zpicy88', 'BigJahul', 'poilopoliop', 'zetexfake']) = False
+Beginner: secondoverthree
+secondoverthree in dict_keys(['GDNewbie', 'BovaScotia', 'GreatGD5', 'HappinessMajority', 'Zpicy88', 'BigJahul', 'poilopoliop', 'zetexfake']) = False
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+Exception ignored in: <module 'threading' from '/usr/lib/python3.10/threading.py'>
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1567, in _shutdown
+    lock.acquire()
+KeyboardInterrupt: 
+Unhandled exception in internal background task 'send_event'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/discord/ext/tasks/__init__.py", line 169, in _loop
+    await self.coro(*args, **kwargs)
+  File "/root/rex-discord/REX-3-Theb-Scraper/zetex_jr.py", line 49, in send_event
+    event.format(event_type) + f"\nTracks Without Incident: {self.et.tracks}")
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'str'
+/root/kill-script.sh: 1: kill: No such process
+
+Already up to date.
+Unhandled exception in internal background task 'send_event'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/discord/ext/tasks/__init__.py", line 169, in _loop
+    await self.coro(*args, **kwargs)
+  File "/root/rex-discord/REX-3-Theb-Scraper/zetex_jr.py", line 49, in send_event
+    event.format(event_type) + f"\nTracks Without Incident: {self.et.tracks}")
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'str'
+Killed
+Zetex Jr ready for action!
+
+--------------------------------------------------
+
+REX3 SCRAPE TRACKER
+by zetexfake and GDNewbie
+Exception ignored in: <module 'threading' from '/usr/lib/python3.10/threading.py'>
+Traceback (most recent call last):
+  File "/usr/lib/python3.10/threading.py", line 1567, in _shutdown
+    lock.acquire()
+KeyboardInterrupt: 
+Unhandled exception in internal background task 'send_event'.
+Traceback (most recent call last):
+  File "/usr/local/lib/python3.10/dist-packages/discord/ext/tasks/__init__.py", line 169, in _loop
+    await self.coro(*args, **kwargs)
+  File "/root/rex-discord/REX-3-Theb-Scraper/zetex_jr.py", line 49, in send_event
+    event.format(event_type) + f"\nTracks Without Incident: {self.et.tracks}")
+TypeError: unsupported operand type(s) for +: 'NoneType' and 'str'
+Zetex Jr ready for action!
+
+--------------------------------------------------
+
+REX3 SCRAPE TRACKER
+by zetexfake and GDNewbie
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+THEB: GDNewbie
+SCOVILLE: GDNewbie
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+Beginner: Valenthrium
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+Beginner: FgteevDude2014
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+THEB: CayDrucial
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+Beginner: scoobydoojake
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+Beginner: cup_toast
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+THEB: HatsateChloe
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+THEB: Maxis_s
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+THEB: Maxis_s
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+THEB: azath_tj
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+Beginner: n0_maiden
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+MOMSONGAMING: MomSonGaming
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+Beginner: Zentlyar
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+Beginner: Hex121207
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+THEB: HatsateChloe
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+Beginner: Dinocel
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+SCOVILLE: HappinessMajority
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+Beginner: clone2545
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+THEB: GDNewbie
+SCOVILLE: GDNewbie
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+THEB: zetexfake
+SCOVILLE: zetexfake
+THEB: ronnoc1236
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+THEB: dreubie
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+Beginner: bamblash
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+THEB: HatsateChloe
+Beginner: bobsfrendseatfood
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+SCOVILLE: HappinessMajority
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+THEB: zetexfake
+SCOVILLE: zetexfake
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+THEB: zetexfake
+SCOVILLE: zetexfake
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+Beginner: ItsArix0n
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+THEB: pacovepowered5
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+ZETEXSERVER: poss1blylogan
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+THEB: dreubie
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+THEB: zetexfake
+SCOVILLE: zetexfake
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+Beginner: Plsgivebuckspls
+THEB: zetexfake
+SCOVILLE: zetexfake
+SCOVILLE: poIlopolIop
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+THEB: aakcop
+THEB: zetexfake
+SCOVILLE: zetexfake
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+THEB: azath_tj
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+Beginner: ItsArix0n
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+Beginner: BottomOfTheSwamp
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+THEB: HatsateChloe
+Beginner: n0_maiden
+ZETEXSERVER: poss1blylogan
+THEB: pacovepowered5
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+Beginner: tiger830
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+THEB: CayDrucial
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+Beginner: pokyblowfish70
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+THEB: Cdeeev
+Beginner: MaxiRascal
+THEB: zetexfake
+SCOVILLE: zetexfake
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+Beginner: pokyblowfish70
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+THEB: azath_tj
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+ZETEXSERVER: poss1blylogan
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+THEB: dreubie
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+THEB: CayDrucial
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+THEB: dreubie
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+THEB: ronnoc1236
+THEB: CayDrucial
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+THEB: not_grog
+THEB: CayDrucial
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+THEB: pacovepowered5
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+THEB: azath_tj
+THEB: HatsateChloe
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+Beginner: dj777kin11
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+Beginner: MarkGeoPro
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+THEB: aakcop
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+THEB: PoppinKenny07
+THEB: PoppinKenny07
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+THEB: pacovepowered5
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+THEB: not_grog
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+THEB: pacovepowered5
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+Beginner: yourfellochimken
+Zetex Jr ready for action!
+
+--------------------------------------------------
+
+REX3 SCRAPE TRACKER
+by zetexfake and GDNewbie
+THEB: Cdeeev
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+THEB: Cdeeev
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+Beginner: xpeats
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+THEB: VyTheVile
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+Beginner: dragonslayer1243765
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+THEB: CayDrucial
+THEB: Cdeeev
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+Beginner: 28Sk3tch
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+ZETEXSERVER: poss1blylogan
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+Beginner: Boxup_809
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+THEB: PoppinKenny07
+Beginner: TakeAPictureOfMe
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+Beginner: clone2545
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+THEB: Cdeeev
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+Beginner: Amazing_Duckz
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+THEB: HatsateChloe
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+THEB: Cdeeev
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+Beginner: PacificUV
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+Beginner: vincentmendoza2006
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+THEB: zetexfake
+SCOVILLE: zetexfake
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+THEB: zetexfake
+SCOVILLE: zetexfake
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+THEB: HatsateChloe
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+THEB: zetexfake
+SCOVILLE: zetexfake
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+THEB: Invasionier
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+THEB: Invasionier
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+Beginner: Counter_Dummy
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
+et loop error 2: 'NoneType' object has no attribute 'keys'
+
+heartbeat sent after 41.25s
