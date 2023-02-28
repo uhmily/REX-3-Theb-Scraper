@@ -138,7 +138,6 @@ class OreEvent:
             name = item_manager.get_username(self.username, 1)
             self.print_username = f"{self.username}{' (' + name + ')' if name is not None else ''}"
             out.append(EventType.THEB)
-        print(f"{self.username} in {item_manager.get_scoville_dict().keys()} = {self.username in item_manager.get_scoville_dict().keys()}")
         if self.username in item_manager.get_scoville_dict().keys():
             print("SCOVILLE: " + self.username)
             name = item_manager.get_username(self.username, 2)
